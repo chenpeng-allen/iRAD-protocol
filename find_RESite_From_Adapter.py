@@ -1,7 +1,7 @@
 # coding=utf-8
-# usage ` python adapter中的酶切位点信息统计.py adapter序列 酶切序列`
-# adapter序列和酶切序列文件包含两列，名称和序列
-# 结果包含3列，adapter名称 含有的酶切位点 存在的位置
+# usage ` python find_RESite_From_Adapter.py AdapterSeq_file  RESite_file`
+# AdapterSeq_file and RESite_file are two-column files containing "Name" and "Sequence".
+# The output contains three columns: [Adapter Name], [Restriction Site Included], and [Position Present].
 import sys
 
 def find():
@@ -26,3 +26,4 @@ def find():
 
 if __name__ == "__main__":
     find()
+
