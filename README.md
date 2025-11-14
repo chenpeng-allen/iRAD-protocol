@@ -1,5 +1,5 @@
 ### 1. fa2cmap_multi_color.pl
-It​ is derived from Bionano Genomics' Solve v3.5​ software suite. It can simultaneously identify multiple motif sites within a genome, perform in silicocleavage at these locations, and generate a comprehensive list of fragment information.
+It​ is derived from Bionano Genomics' Solve v3.5​ software suite. It can simultaneously identify multiple motif sites within a genome, perform in silico cleavage at these locations, and generate a comprehensive list of fragment information.
 ```bash
 perl fa2cmap_multi_color.pl -e Mse:TTAA 1 -e Msp:CCGG 1 -e HinP1I:GCGC 1 -i genome.fasta -o out.dir
 ```
